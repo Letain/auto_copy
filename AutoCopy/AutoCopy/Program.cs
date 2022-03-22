@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using AutoCopy.Logics;
+using AutoCopy.Repositories;
+using System;
 using System.Windows.Forms;
-using AutoCopy.Model;
 
 namespace AutoCopy
 {
@@ -15,16 +13,17 @@ namespace AutoCopy
         [STAThread]
         static void Main()
         {
-            //using(var context = new MyWinformDemoDbContext(""))
-            //{
-            //    var aaa = context.CopyHistory.ToList();
-
-            //}
-
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Demo());
+
+            // todo autofac
+            var repository = new DataRepository();
+
+            Application.Run(new Demo(new ListenOnNewFileLogic(repository)));
+
+
+
+            // todo exception handdle
         }
     }
 }

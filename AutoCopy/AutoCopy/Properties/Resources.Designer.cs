@@ -61,20 +61,101 @@ namespace AutoCopy.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to FTP服务器路径.
+        ///   Looks up a localized string similar to connections.
         /// </summary>
-        internal static string ftp_lbl_text {
+        internal static string ini_connections {
             get {
-                return ResourceManager.GetString("ftp_lbl_text", resourceCulture);
+                return ResourceManager.GetString("ini_connections", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 监视的路径.
+        ///   Looks up a localized string similar to my_winform_demo_connection_string.
         /// </summary>
-        internal static string resource_lbl_text {
+        internal static string ini_connections_mysql {
             get {
-                return ResourceManager.GetString("resource_lbl_text", resourceCulture);
+                return ResourceManager.GetString("ini_connections_mysql", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to auto_copy.ini.
+        /// </summary>
+        internal static string ini_file_name {
+            get {
+                return ResourceManager.GetString("ini_file_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to paths.
+        /// </summary>
+        internal static string ini_paths {
+            get {
+                return ResourceManager.GetString("ini_paths", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ftp_path.
+        /// </summary>
+        internal static string ini_paths_ftp {
+            get {
+                return ResourceManager.GetString("ini_paths_ftp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to local_path.
+        /// </summary>
+        internal static string ini_paths_local {
+            get {
+                return ResourceManager.GetString("ini_paths_local", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to users.
+        /// </summary>
+        internal static string ini_users {
+            get {
+                return ResourceManager.GetString("ini_users", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ftp_password.
+        /// </summary>
+        internal static string ini_users_ftp_pw {
+            get {
+                return ResourceManager.GetString("ini_users_ftp_pw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ftp_user.
+        /// </summary>
+        internal static string ini_users_ftp_user {
+            get {
+                return ResourceManager.GetString("ini_users_ftp_user", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to last_sync_time.txt.
+        /// </summary>
+        internal static string last_sync_record_file_name {
+            get {
+                return ResourceManager.GetString("last_sync_record_file_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to sync.lock.
+        /// </summary>
+        internal static string lock_file_name {
+            get {
+                return ResourceManager.GetString("lock_file_name", resourceCulture);
             }
         }
     }

@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
 
-namespace AutoCopy.Control
+namespace AutoCopy.Controls
 {
     public class TextBoxEx : TextBox
     {

@@ -1,18 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AutoCopy.Model
+namespace AutoCopy.Models
 {
+    /// <summary>
+    /// COPY履历表
+    /// </summary>
     [Table("copy_history")]
     public class CopyHistory
     {
         [Key]
         [Column("history_id")]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int HistoryId { get; set; }
         
         [Required]

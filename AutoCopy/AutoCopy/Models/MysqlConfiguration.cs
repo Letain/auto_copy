@@ -1,18 +1,16 @@
 ﻿using MySql.Data.EntityFramework;
 using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Core.Common;
 using System.Data.Entity.Infrastructure;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace AutoCopy.Model
+namespace AutoCopy.Models
 {
     public class MysqlConfiguration : DbConfiguration
     {
+        /// <summary>
+        /// 配置EntityFramework支持MySql
+        /// </summary>
         public MysqlConfiguration()
         {
 

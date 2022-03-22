@@ -117,10 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ftp_lbl_text" xml:space="preserve">
-    <value>FTP服务器路径</value>
+  <data name="ini_connections" xml:space="preserve">
+    <value>connections</value>
   </data>
-  <data name="resource_lbl_text" xml:space="preserve">
-    <value>监视的路径</value>
+  <data name="ini_connections_mysql" xml:space="preserve">
+    <value>my_winform_demo_connection_string</value>
+  </data>
+  <data name="ini_file_name" xml:space="preserve">
+    <value>auto_copy.ini</value>
+  </data>
+  <data name="ini_paths" xml:space="preserve">
+    <value>paths</value>
+  </data>
+  <data name="ini_paths_ftp" xml:space="preserve">
+    <value>ftp_path</value>
+  </data>
+  <data name="ini_paths_local" xml:space="preserve">
+    <value>local_path</value>
+  </data>
+  <data name="ini_users" xml:space="preserve">
+    <value>users</value>
+  </data>
+  <data name="ini_users_ftp_pw" xml:space="preserve">
+    <value>ftp_password</value>
+  </data>
+  <data name="ini_users_ftp_user" xml:space="preserve">
+    <value>ftp_user</value>
+  </data>
+  <data name="last_sync_record_file_name" xml:space="preserve">
+    <value>last_sync_time.txt</value>
+  </data>
+  <data name="lock_file_name" xml:space="preserve">
+    <value>sync.lock</value>
   </data>
 </root>
